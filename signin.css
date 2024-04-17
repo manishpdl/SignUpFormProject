@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight:100;
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+
+
+.screen_1{
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+
+}
+
+
+.contain span{
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    font-size: 30px;
+    margin: 162px;
+    line-height: 60px;
+}
+form{
+    /* margin:10px 0px 0px 10px; */
+    font-size: 20px;
+    padding: 20px;
+    line-height: 40px;
+}
+
+
+
+
+.first #topic{
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+padding-left: 10px;
+    
+}
+.second #password{
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    padding-left: 10px;
+
+}
+    .third{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 15px;
+        
+    }
+    .fourth{
+        margin-left: 240px;
+    }
+ button#signin{
+    width: 103%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+ }
+ .connect{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+ }
+ .connect button{
+height: 40px;
+width: 200px;
+background-color: white;
+font-size: 20px;
+}
+.fa-brands, .fab{
+    padding-right:10px ;
+    font-size: 20px;
+} 
+p#account{
+    text-align: center;
+}
+p#account a{
+    text-decoration: none;
+}
+p.or{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.connect button a{
+    text-decoration: none;
+color: black;
+}
+.screen:hover{
+    -webkit-box-shadow: -3px -1px 29px 0px rgba(0,0,0,0.99);
+    -moz-box-shadow: -3px -1px 29px 0px rgba(0,0,0,0.99);
+    box-shadow: -3px -1px 29px 0px rgba(0,0,0,0.99);
+}
+
+button#signin:hover{
+    background: white;
+    color: black;
+    
+    -webkit-box-shadow: -3px -8px 26px -9px rgba(0,0,0,0.99);
+-moz-box-shadow: -3px -8px 26px -9px rgba(0,0,0,0.99);
+box-shadow: -3px -8px 26px -9px rgba(0,0,0,0.99);
+}
+
+span:hover{
+    font-weight: bold;
+}
+button:hover{
+    -webkit-box-shadow: -3px -8px 26px -9px rgba(0,0,0,0.99);
+    -moz-box-shadow: -3px -8px 26px -9px rgba(0,0,0,0.99);
+    box-shadow: -3px -8px 26px -9px rgba(0,0,0,0.99);
+}
+
+@media screen and (max-width: 500px) {
+    .contain span {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    form {
+        font-size: 14px;
+        padding: 10px;
+        line-height: 25px;
+    }
+
+    .first #topic,
+    .second #password {
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .third {
+        font-size: 10px;
+    }
+
+    .fourth {
+        font-size: 12px;
+    }
+
+    button#signin {
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .connect button {
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .fa-brands,
+    .fab {
+        font-size: 16px;
+    }
+}
